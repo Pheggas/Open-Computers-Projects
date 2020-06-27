@@ -4,7 +4,7 @@ local computer = require("computer")
 local component = require("component")
 
 -- Main Program
-component.modem.open(123)
+component.modem.open([port])
 while true do
 	local _, _, _, _, _, string = event.pull("modem")
 	if string == "reboot" then computer.shutdown(true) end
