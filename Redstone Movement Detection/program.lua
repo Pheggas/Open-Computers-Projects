@@ -1,14 +1,14 @@
 os.execute("clear")
 print("Starting...")
+
+-- Libraries
 local component = require("component")
 local test
 local sides = require("sides")
 local event = require("event")
 print("Fully loaded!")
-print("")
-print("###################################")
-print("#Program by Pheggas & RealMrGollum#")
-print("###################################")
+
+-- Main Program
 while true do
   local id, _, x, y, z, entity = event.pull("motion")
   for i,player in ipairs(component.radar.getPlayers()) do print(player.name) end
