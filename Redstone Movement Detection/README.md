@@ -3,4 +3,4 @@ This program will notice if there is player nearby, or if any creature moving in
 ### Requirements:
 1.  [Motion Sensor](https://ocdoc.cil.li/block:motion_sensor)
 2.  [Computronics mod](https://wiki.vexatos.com/wiki:computronics)
-2.1.  [Radar](https://wiki.vexatos.com/wiki:computronics:radar)
+3.  [Radar](https://wiki.vexatos.com/wiki:computronics:radar)
